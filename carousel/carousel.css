@@ -42,7 +42,6 @@
   height: 100%;
   object-fit: cover;
   display: block;
-  max-height: 600px;
 }
 
 /* ── Controls (prev / next) ────────────────────────────────────────────────── */
