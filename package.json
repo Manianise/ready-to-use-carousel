@@ -22,8 +22,26 @@
   "main": "./carousel/carousel.js",
   "module": "./carousel/carousel.js",
   "exports": {
-    ".": "./carousel/carousel.js",
-    "./carousel.css": "./carousel/carousel.css"
+    ".": {
+      "import": "./carousel/carousel.js",
+      "default": "./carousel/carousel.js"
+    },
+    "./carousel": {
+      "import": "./carousel/carousel.js",
+      "default": "./carousel/carousel.js"
+    },
+    "./carousel.js": {
+      "import": "./carousel/carousel.js",
+      "default": "./carousel/carousel.js"
+    },
+    "./carousel/carousel.js": {
+      "import": "./carousel/carousel.js",
+      "default": "./carousel/carousel.js"
+    },
+    "./carousel.css": {
+      "default": "./carousel/carousel.css"
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "carousel"
