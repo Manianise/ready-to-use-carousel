@@ -1,0 +1,27 @@
+{
+  "name": "ready-to-use-carousel",
+  "version": "1.0.0",
+  "description": "An all in one easy to use carousel",
+  "keywords": [
+    "Easy",
+    "to",
+    "Use",
+    "Carousel"
+  ],
+  "homepage": "https://github.com/Manianise/ready-to-use-carousel#readme",
+  "bugs": {
+    "url": "https://github.com/Manianise/ready-to-use-carousel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manianise/ready-to-use-carousel.git"
+  },
+  "license": "MIT",
+  "author": "Pierre-Alexandre STERBIK",
+  "type": "commonjs",
+  "main": "carousel.js",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
