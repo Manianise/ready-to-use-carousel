@@ -50,7 +50,6 @@ const CAROUSEL_STYLE_TEXT = `
   height: 100%;
   object-fit: cover;
   display: block;
-  max-height: 600px;
 }
 
 .carousel__controls {
