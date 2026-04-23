@@ -27,19 +27,13 @@ A lightweight, dependency-free image carousel component in vanilla JavaScript.
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 ```
 
-2. Add carousel styles:
-
-```html
-<link rel="stylesheet" href="./carousel.css" />
-```
-
-3. Create a container element:
+2. Create a container element:
 
 ```html
 <div id="my-carousel"></div>
 ```
 
-4. Import and initialize in a module script:
+3. Import and initialize in a module script:
 
 ```html
 <script type="module">
@@ -60,6 +54,8 @@ A lightweight, dependency-free image carousel component in vanilla JavaScript.
   });
 </script>
 ```
+
+No CSS import is required: styles are injected automatically when the first `Carousel` instance is created.
 
 ## API
 

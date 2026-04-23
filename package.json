@@ -1,6 +1,6 @@
 {
   "name": "ready-to-use-carousel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An all in one easy to use carousel",
   "keywords": [
     "Easy",
@@ -18,8 +18,16 @@
   },
   "license": "MIT",
   "author": "Pierre-Alexandre STERBIK",
-  "type": "commonjs",
-  "main": "carousel.js",
+  "type": "module",
+  "main": "./carousel/carousel.js",
+  "module": "./carousel/carousel.js",
+  "exports": {
+    ".": "./carousel/carousel.js",
+    "./carousel.css": "./carousel/carousel.css"
+  },
+  "files": [
+    "carousel"
+  ],
   "scripts": {
     "start": "python3 -m http.server 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
